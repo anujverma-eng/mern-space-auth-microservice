@@ -1,3 +1,5 @@
-function login(userName: string) {console.log("login");
+function login(userName: string) {
+  console.log("login");
   return userName;
-}login("John Doe");
+}
+login("John Doe");
