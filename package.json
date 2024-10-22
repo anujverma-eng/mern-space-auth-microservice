@@ -4,12 +4,15 @@
   "description": "Auth service for merspace project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "author": "Anuj Verma",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.7.7",
+    "prettier": "3.3.3",
     "typescript": "^5.6.3"
   }
 }
