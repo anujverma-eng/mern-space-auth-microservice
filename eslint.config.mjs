@@ -21,7 +21,13 @@ export default tseslint.config(
     },
   },
   {
-    ignores: [".config/*", "dist", "build/**/*", "eslint.config.js", "eslint.config.mjs"],
+    ignores: [
+      ".config/*",
+      "dist",
+      "build/**/*",
+      "eslint.config.js",
+      "eslint.config.mjs",
+    ],
   },
   {
     files: ["**/*.js"],
@@ -30,7 +36,11 @@ export default tseslint.config(
   {
     rules: {
       "no-console": "warn",
-      "arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: true }],
+      "arrow-body-style": [
+        "error",
+        "as-needed",
+        { requireReturnForObjectLiteral: true },
+      ],
       "block-scoped-var": "error",
     },
   },

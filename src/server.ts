@@ -1,5 +1,3 @@
-function login(userName: string) {
-  console.log("login");
-  return userName;
-}
-login("John Doe");
+import { Config } from "./config";
+
+console.log("Hello World at PORT: ", Config.PORT);
